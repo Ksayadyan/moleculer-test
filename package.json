@@ -1,0 +1,26 @@
+{
+  "name": "moleculer-test",
+  "version": "1.0.0",
+  "description": "See the beauty of moleculerjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "moleculer-runner --repl --hot services"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ksayadyan/moleculer-test.git"
+  },
+  "author": "Karen Sayadyan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ksayadyan/moleculer-test/issues"
+  },
+  "homepage": "https://github.com/Ksayadyan/moleculer-test#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "moleculer": "^0.13.9",
+    "moleculer-repl": "^0.5.7",
+    "morgan": "^1.9.1"
+  }
+}
